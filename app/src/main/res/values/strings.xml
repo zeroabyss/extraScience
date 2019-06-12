@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">趣味实验室</string>
+    <string name="main_item_1">浓盐酸和二氧化锰制氯气</string>
+    <string name="create">CREATE</string>
+    <string name="main_item_2">制取二氧化碳</string>
+    <string name="main_item_3">分离苯和苯甲酸的混合溶液</string>
+</resources>
