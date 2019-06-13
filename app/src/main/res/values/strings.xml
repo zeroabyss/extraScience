@@ -4,4 +4,63 @@
     <string name="create">CREATE</string>
     <string name="main_item_2">制取二氧化碳</string>
     <string name="main_item_3">分离苯和苯甲酸的混合溶液</string>
+    <string name="second_step">实验步骤</string>
+    <string name="second_Precautions">注意事项</string>
+
+    <string name="cl2_step">
+        （1）把装置连接好，检查气密性。\n
+        （2）在烧瓶中加入少量二氧化锰，从分液漏头里慢慢地注入密度为1.19的浓盐酸。\n
+        （3）缓缓加热，使反应加快，有氮气均匀放出。\n
+        （4）用向上排空气法收集。\n
+        （5）多余氮气用氢氧化钠吸收\n
+    </string>
+
+    <string name="cl2_precautions">
+        氯气泄漏极易造成人身伤亡和区域性污染，实验室防止氯气泄漏的方法有：\n
+（1）不能选用存在缺陷的设备和部件，各设备和部件要定期检测和检验；\n
+（2）加强工艺管理，严格控制工艺指标，发现问题必须及时检查和处理；\n
+氯气泄漏应急处理：\n
+（1）倒罐转移。采用疏导的方法将液氯倒入其他容器或储罐。\n
+（2）化学中和。在消防车水罐中加入生石灰、苏打粉等碱性物质，向罐体、容器喷射，以减轻危害，也可将泄漏的液氯导至碳酸钠溶液中，使其中和，形成无危害或微毒废水。\n
+（3）稀释降毒。以泄漏点为中心，在储罐、容器壁的四周设置水幕或喷雾水枪喷射雾状水进行稀释降毒，但不宜使用直流水或直接对准泄漏点喷射，避免氯气与水作用生成酸，加速对泄漏点的腐蚀\n
+（4）浸泡水解。运输途中体积较小的液氯钢瓶阀门损坏，发生泄漏，又无堵漏器具无法制止外泄时，可将钢瓶浸入氢氧化钙等碱性溶液中进行中和，也可将钢瓶浸入水中。
+
+    </string>
+
+    <string name="co2_step">
+      （1)连接装置\n
+        （2）检查气密性\n
+        （3）在锥形瓶中装入大理石（或石灰石)\n
+        （4）从长颈漏斗中加入稀盐酸\n
+        （5）收集气体\n
+    </string>
+
+    <string name="co2_precautions">
+       （1）不能选用稀硫酸，因为稀硫酸与碳酸钙反应生成微溶于水的硫酸钙会覆盖在碳酸钙的表面，阻止反应继续进行。\n
+       （2）不能选用浓盐酸，因为浓盐酸易挥发，得不到纯净的二氧化碳气体。\n
+        （3）不能选用碳酸钠代替石灰石，因为反应太剧烈，产生的气体难以收集。反应速率的快慢与反应物的质量分数和接触面积有关。反应物的接触面积越大，反应物的质量分数越大，反应速率就越快，反之，则越慢。
+    </string>
+
+    <string name="c6h6_step">
+        （1）连接装置\n
+（2）将苯和苯甲酸混合溶液倒入烧杯中\n
+（3）在搅拌下滴加2mol/L NaOH溶液，滴至pH约为10.\n
+（4）将溶液转移分液漏斗中，静置分层。\n
+（5）将两层分离。
+    </string>
+
+    <string name="c6h6_precautions">
+        无
+    </string>
+    <string name="start">开始实验</string>
+    <string name="third_item_1">重量设置</string>
+    <string name="third_item_2">溶液</string>
+    <string name="third_item_3">温度设置</string>
+    <string name="third_item_4">溶度设置</string>
+    <string name="third_item_5">酒精灯设置</string>
+    <string name="third_item_6">体积</string>
+
+    <string name="third_button_clear">清零</string>
+    <string name="third_button_submit">提交</string>
+
 </resources>

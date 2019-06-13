@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
                 .setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(MainActivity.this, CL2Activity.class);
+                        Intent intent = SecondActivity.createIntent(MainActivity.this,Constants.type_CL2);
                         startActivity(intent);
                     }
                 });
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
                 .setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(MainActivity.this, CO2Activity.class);
+                        Intent intent = SecondActivity.createIntent(MainActivity.this,Constants.type_CO2);
                         startActivity(intent);
                     }
                 });
@@ -33,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
                 .setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(MainActivity.this, C6H6Activity.class);
+                        Intent intent = SecondActivity.createIntent(MainActivity.this,Constants.type_C6H6);
+
                         startActivity(intent);
                     }
                 });

@@ -9,4 +9,9 @@
     <color name="main_item_background">#FFFFFF</color>
     <color name="main_item_title_text_color">#B0E2FF</color>
     <color name="main_item_sub_title_text_color">#D3D3D3</color>
+
+    //third
+    <color name="third_divide_line_color">#DBDBDB</color>
+    <color name="third_button_background">#CFCFCF</color>
+
 </resources>

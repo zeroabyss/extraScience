@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/third_item_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/third_item_1"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/third_item_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/third_item_2"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divide_line_one"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/ll_one"
+        android:background="@color/third_divide_line_color" />
+
+    <LinearLayout
+        android:layout_below="@id/divide_line_one"
+        android:id="@+id/ll_two"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/third_item_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/third_item_3"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/third_item_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/third_item_4"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <View
+        android:layout_below="@id/ll_two"
+        android:id="@+id/divide_line_two"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/third_divide_line_color"/>
+
+    <LinearLayout
+        android:layout_below="@id/divide_line_two"
+        android:id="@+id/ll_third"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/third_item_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/third_item_5"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/third_item_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/third_item_6"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <View
+        android:layout_below="@id/ll_third"
+        android:id="@+id/divide_line_third"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/third_divide_line_color"/>
+
+    <LinearLayout
+        android:layout_below="@id/divide_line_third"
+        android:id="@+id/ll_four"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="@string/third_button_clear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:background="@color/third_button_background"
+            android:id="@+id/button_clear"/>
+
+        <Button
+            android:text="@string/third_button_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:background="@color/third_button_background"
+            android:id="@+id/button_submit"/>
+    </LinearLayout>
+</RelativeLayout>
